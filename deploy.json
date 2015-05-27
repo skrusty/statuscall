@@ -1,0 +1,19 @@
+{
+	"ApplicationName": "StatusCall",
+	"ApplicationDescription": "A Zapappi Application (ZapApp) that gives statuspage.io information through a phone call. Requires a statuspage.io account.",
+	"SourceUrl": "https://raw.githubusercontent.com/skrusty/statuscall/master/statuscall.js",
+	"ConfigurationValues": [
+		{
+			"Name": "StatusPageId",
+			"DisplayName": "Page Id",
+			"Description": "Your StatusPage.IO Page Id",
+			"Type": "Text"
+		},
+		{
+			"Name": "StatusPageKey",
+			"DisplayName": "API Key",
+			"Description": "Your StatusPage.IO API Key",
+			"Type": "Text"
+		}
+	]
+}
