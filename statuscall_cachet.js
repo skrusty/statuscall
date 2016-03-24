@@ -4,7 +4,7 @@ var cachetStatus = ["Operational", "Performance Issues", "Partial Outage", "Majo
 
 call.Answer();
 
-// request status from StatusPage.io API
+// request status from Cachet API
 var response = sys.Web(config.GetKeyValue("CachetUrl") + "/api/v1/components", "GET", {});
 sys.Log("Response status code: " + response.StatusCode);
 
